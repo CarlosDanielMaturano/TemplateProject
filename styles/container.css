@@ -1,0 +1,333 @@
+.presentation-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("./../assets/img/presentation.jpg");
+    background-color: rgba(10, 10, 10);
+    background-size: cover;
+    min-height: 670px;
+    background-position: 50% 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: var(--white-primary);
+}
+
+.container__text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8em;
+    gap: 2em;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    max-width: 600px;
+}
+
+.presentation-container__title {
+    font-size: 3.25rem;
+    line-height: 1.1;
+}
+
+.presentation-container__text {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.container__main {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-background);
+    color: white;
+    gap: 5em;
+}
+
+.container__main__primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 2em;
+    padding: 0;
+}
+
+.container__primary__title {
+    font-size: 2.5rem;
+    line-height: 1.1;
+}
+
+.container__primary__text {
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.container__main__primary__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__primary__image {
+    width: 60%;
+}
+
+.container__main__secondary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__secondary__title {
+    font-size: 2.5rem;
+    line-height: 1.1;
+}
+
+.container__secondary__text {
+    max-width: 700px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-left: 10%;
+    padding: 1em;
+}
+
+.container__secondary__text__text {
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.container__secondary__image {
+    width: 50%;
+    height: auto;
+    min-width: 500px;
+}
+
+.mention-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-primary);
+    background-color: var(--primary-background);
+    padding: 5em;
+    gap: 1em;
+    margin: 1em;
+    margin-top: 5em;
+}
+
+.mention-container__icon {
+    font-size: 5.3rem;
+}
+
+.mention-container__text {
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 4em;
+    line-height: 1.1;
+}
+
+.mention__text {
+    font-size: 2.25rem;
+}
+
+.mention__author {
+    font-size: 1.25rem;
+}
+
+.container__creations {
+    display: flex;
+    padding: 5em 10em;
+    background-color: var(--primary-background);
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5em;
+    gap: 5em;
+}
+.container__creation__text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    max-width: 480px;
+}
+
+.creation__title {
+    font-size: 3.25rem;
+}
+
+.creation__text {
+    font-size: 1.25rem;
+}
+
+.container__image {
+    width: 100%;
+    max-width: 700px;
+    min-width: 400px;
+}
+
+.print__container {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--primary-background);
+}
+
+.print__container__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.print__title {
+    color: var(--blue-primary);
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.print__text {
+    color: var(--blue-primary);
+    font-size: 1.25rem;
+    line-height: 1.5;
+    max-width: 600px;
+}
+
+.print__container__image {
+    width: 50%;
+    height: auto;
+    min-width: 50vw;
+    align-self: flex-start;
+}
+
+.discord__container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("./../assets/img/discord__background.jpg");
+    background-color: red;
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discord__container__text {
+    background-color: var(--secondary-background);
+    width: 100%;
+    padding: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 2em;
+}
+
+.discord__container__text i {
+    font-size: 5rem;
+}
+
+.discord__text {
+    font-size: 1.25rem;
+    max-width: 500px;
+    line-height: 1.5;
+}
+
+.tips-container {
+    background-color: var(--red-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    padding: 3em;
+    gap: 1.5em;
+}
+
+.tips__title {
+    font-size: 2.25rem;
+}
+
+.tips__text {
+    font-size: 1rem;
+}
+
+.contact__container {
+    margin-top: 3em;
+    background-color: var(--red-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    padding: 4em;
+    gap: 1.5em;
+}
+
+.contact__title {
+    font-size: 2.25rem;
+}
+
+.contact__text span {
+    color: var(--blue-primary);
+}
+
+@media screen and (max-width: 990px) {
+    .navbar__links {
+        display: none;
+    }
+
+    .container__main__secondary {
+        flex-direction: column-reverse;
+        padding: 1em 0;
+        align-items: inherit;
+    }
+
+    .container__secondary__text {
+        margin: 1em 0;
+    }
+
+    .container__secondary__image {
+        width: 100%;
+        min-width: 100%;
+    }
+
+    .container__creations {
+        flex-direction: column;
+    }
+    .container__creation__text {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .creation__text {
+        min-width: 660px;
+    }
+
+    .print__container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .print__container__image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .container__text {
+        margin: 0;
+        padding: 2vw;
+    }
+
+    .container__main__primary {
+        text-align: center;
+    }
+
+    .container__secondary__text {
+        width: fit-content;
+    }
+}

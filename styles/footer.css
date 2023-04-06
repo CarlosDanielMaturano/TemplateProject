@@ -1,0 +1,13 @@
+footer {
+    background-color: var(--blue-primary);
+    padding: 2em;
+}
+
+.copyright {
+    text-align: center;
+    color: var(--white-primary);
+}
+
+.copyright__text {
+    font-size: 1rem;
+}

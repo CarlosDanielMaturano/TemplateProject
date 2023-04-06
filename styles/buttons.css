@@ -1,0 +1,32 @@
+.button-red {
+    text-decoration: none;
+    color: var(--white-primary);
+    text-transform: uppercase;
+    background-color: var(--red-primary);
+    width: fit-content;
+    padding: 1em;
+    font-size: 1.2rem;
+    display: flex;
+}
+
+.button-blue {
+    text-decoration: none;
+    color: var(--white-primary);
+    text-transform: uppercase;
+    background-color: var(--blue-primary);
+    width: fit-content;
+    padding: 1em;
+    font-size: 1.2rem;
+    display: flex;
+}
+
+.button-white {
+    text-decoration: none;
+    color: var(--primary-background);
+    text-transform: uppercase;
+    background-color: var(--white-primary);
+    width: fit-content;
+    padding: 1em;
+    font-size: 1.2rem;
+    display: flex;
+}
